@@ -1,0 +1,14 @@
+
+name: smart-action
+description: "Say hello action"
+branding:
+  icon: eye
+  color: red
+runs:
+  using: composite
+  steps:
+  - name: Hello World !
+    shell: bash
+    run: |
+      echo "Kabooom!"
+      exit 666
